@@ -1,0 +1,234 @@
+/* quasi tutti i dispositivi mobile */
+  @media (max-width: 575.98px) {
+    .navbar{
+      text-align: center;
+    }
+
+    .hamburger {                                        /* Simbolo del menu a scomprsa */
+      position: fixed;
+      top: 20px;       /* distanza dall'alto */
+      left: 0;         /* margine sinistro */
+      z-index: 1000;   /* sopra altri elementi */
+    }
+
+    .inizio{                                            /* Parte iniziale dove dice Ciao Sono Emanuele */
+      text-align: center;
+      margin-top: 0px;
+      margin-bottom: 40px;
+    }
+
+    .imghome{                                           /* Prima pagina iniziale dell' immagine */
+      width: 300px;
+      height: 290px;
+    }
+
+    .img_presento{                                     /* Parte iniziale dove dice Ciao Sono Emanuele */
+      width: 300px;
+      height: 290px;
+    }
+    
+    .mi_presento {                                      /* descrizione della presentazione */
+      margin-left: 0px;
+      margin-top: 60px; 
+    }
+    /* Sezione Footer */
+    footer span a{ font-size: 16px; }
+
+    footer p{ font-size: 14px; }
+
+    .linkedin{
+      width: 26px;
+      height: 26px;
+    }
+
+    .github{
+      width: 26px;
+      height: 26px;
+    }
+
+    .telegram{
+      width: 24px;
+      height: 24px;
+    }
+
+    .instagram{
+      width: 24px;
+      height: 24px;
+    }
+  }
+  
+  /* Piccoli device */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+     .navbar{
+      text-align: center;
+    }
+
+    .hamburger {                                        /* Simbolo del menu a scomprsa */
+      position: fixed;
+      top: 20px;       /* distanza dall'alto */
+      left: 0;         /* margine sinistro */
+      z-index: 1000;   /* sopra altri elementi */
+    }
+
+    .inizio{
+      text-align: center;
+      margin-top: 0px;
+      padding-top: 40px;
+    }
+
+    .imghome{
+      width: 350px;
+      height: 350px;
+    }
+
+    .img_presento{
+      width: 350px;
+      height: 350px;
+    }
+
+    .mi_presento{
+      margin-left: 0px;
+      margin-top: 60px;
+    }
+
+    footer span a{ font-size: 16px; }
+
+    footer p{ font-size: 14px; }
+
+    .linkedin{
+      width: 30px;
+      height: 30px;
+    }
+
+    .github{
+      width: 30px;
+      height: 30px;
+    }
+
+    .telegram{
+      width: 30px;
+      height: 30px;
+    }
+
+    .instagram{
+      width: 30px;
+      height: 30px;
+    }
+   }
+
+/* Da tablet in su */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar{
+      text-align: center;
+    }
+
+    .hamburger {                                        /* Simbolo del menu a scomprsa */
+      position: fixed;
+      top: 20px;       /* distanza dall'alto */
+      left: 0;         /* margine sinistro */
+      z-index: 1000;   /* sopra altri elementi */
+    }
+
+    .inizio{
+      text-align: center;
+      margin-top: 0px;
+      padding-top: 40px;
+    }
+
+    .imghome{
+      width: 370px;
+      height: 370px;
+    }
+
+    .img_presento{
+      width: 370px;
+      height: 370px;
+    }
+
+    .mi_presento{
+      margin-left: 0px;
+      margin-top: 60px;
+    }
+
+    footer span a{ font-size: 16px; }
+
+    footer p{ font-size: 14px; }
+
+    .linkedin{
+      width: 35px;
+      height: 35px;
+    }
+
+    .github{
+      width: 35px;
+      height: 35px;
+    }
+
+    .telegram{
+      width: 35px;
+      height: 35px;
+    }
+
+    .instagram{
+      width: 35px;
+      height: 35px;
+    }
+   }
+
+/* Da pc in poi */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .navbar{
+    text-align: center;
+  }
+
+  /*.hamburger {                                        
+    position: fixed;
+    top: 20px;   
+    left: 0;     
+    z-index: 1000;   
+  }*/
+
+  /*.inizio{
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 40px;
+  }*/
+
+  .imghome{
+    width: 500px;
+    height: 500px;
+  }
+
+  .img_presento{
+    width: 500px;
+    height: 500px;
+    margin-left: 0px;
+  }
+
+  .mi_presento{
+    margin-left: 250px;
+    margin-top: 60px;
+  }
+
+  footer span a{ font-size: 16px; }
+
+  footer p{ font-size: 14px; }
+ }
+
+/* monitor ancora più grandi */
+
+@media (min-width: 1200px) { 
+  .mi_presento{
+    margin-left: 300px;
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.75rem; }
+  h3 { font-size: 1.5rem; }
+  h4 { font-size: 1.25rem; }
+  h5 { font-size: 1.125rem; }
+  p, ul li, button { font-size: 1rem; }
+}

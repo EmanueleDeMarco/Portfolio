@@ -1,0 +1,210 @@
+h1{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+ul li{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.intestazione{
+    margin-top: 250px;
+}
+
+.img_presento{
+    width: 600px;
+    right: 600px;
+
+}
+
+.presentazione{
+    margin-top: 100px;
+}
+
+.progress {
+    height: 100%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    height: 25px;
+  }
+
+  .progress-rip-hardware{
+    background-color: red;
+  }
+
+  .progress-inst-software{
+    background-color: yellow;
+  }
+ 
+  .progress-inst-dispo{
+    background-color: orange;
+  }
+
+  .progress-actdirect{
+    background-color: green;
+  }
+
+  .progress-html{
+    background-color: blue;
+  }
+
+  .progress-css{
+    background-color: pink;
+  }
+
+  .progress-javascript{
+    background-color: #FFDB58;
+  }
+
+  .progress-php{
+    background-color: #48D1CC;
+  }
+
+  .progress-c{
+    background-color: #008080;
+  }
+
+  .progress-java{
+    background-color: #FF7F50;
+  }
+
+  .skill{
+    margin-bottom: 70px;
+    margin-top: 70px;
+  }
+
+.progetti{
+  margin-top: 10px;
+}
+
+.pregetto1{
+  margin-top: 40px;
+}
+
+.quadrato-proget{
+  margin-top: 60px;
+}
+
+.presentazione{
+  margin-top: 90px;
+}
+
+footer{
+  background-color: #faf8ff;
+  color: black;
+}
+
+.navbar-custom {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ccc; 
+}
+
+.navbar-custom .nav-link:hover {
+  color: #cccccc;
+}
+
+.navbar{
+  width: 100%;
+}
+
+body{
+  margin-top: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;  
+}
+/*------------------------------------------------------------------- Loghi --------------------------------------------------------------------------------------------------*/
+.linkedin{
+  width: 60px;
+  height: 60px;
+}
+
+.github{
+  width: 50px;
+  height: 50px;
+}
+
+.telegram{
+  width: 40px;
+  height: 40px;
+}
+
+.instagram{
+  width: 40px;
+  height: 40px;
+}
+
+#home {
+  padding-top: 100px; /* margine alto normale */
+}
+
+.inizio{
+  margin-bottom: 170px;
+}
+
+/*----------------------------------------------------------------- menu a scomparsa -----------------------------------------------------------------------------------------*/
+.navbar-toggler {
+  border: none;                /* elimina il bordo */
+  box-shadow: none;            /* elimina eventuali ombre */
+  background: transparent;      /* sfondo trasparente */
+}
+
+/* Cambia colore delle linee dell’hamburger */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+main {                                                /* Serve a non far coprire il testo della pagina dalla navbar */
+  padding-top: 80px; 
+}
+
+#home{
+  padding-top: 80px;
+}
+
+.navbar.fixed-top {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1030; /* più alto degli altri elementi */
+}
+
+/* Footer full width reale */
+#contatti {
+  width: 100vw;
+  background: #faf8ff; /* colore che vuoi */
+  padding: 1.5rem 0;
+  margin: 0;
+  border-top: 1px solid #ccc;
+  position: relative;
+  left: 0;
+}
+
+.footer-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Reset margini BODY e HTML per sicurezza */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* elimina eventuale scroll orizzontale */
+}
+
+
+
